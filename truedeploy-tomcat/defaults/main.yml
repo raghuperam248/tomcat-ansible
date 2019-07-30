@@ -1,0 +1,6 @@
+---
+# defaults file for truedeploy.tomcat
+tomcat_version: 8.5.43
+#tomcat_url: http://apache.mirrors.ionfish.org/tomcat/tomcat-8/v{{ tomcat_version }}/bin/apache-tomcat-{{ tomcat_version }}.tar.gz
+tomcat_url: https://archive.apache.org/dist/tomcat/tomcat-8/v{{ tomcat_version }}/bin/apache-tomcat-{{ tomcat_version }}.tar.gz
+
