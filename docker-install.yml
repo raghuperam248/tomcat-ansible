@@ -33,9 +33,9 @@
       enabled: yes
       become: yes
 
-  - name: Add user ansible to docker group
-    user:
-    name: root
-    groups: docker
+  #- name: Add user ansible to docker group
+   # user:
+   # name: root
+   # groups: docker
     append: yes
     become: yes
