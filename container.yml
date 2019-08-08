@@ -17,7 +17,7 @@
     docker_container:
       image: raghuperam/containerwebapp:latest
       name: webapp
-      # path: docker
+      path: docker
       state: started
       pull: yes
       ports:
