@@ -7,7 +7,7 @@
   tasks:
   - name: Installing Docker Prerequisite packages
     yum:
-      name: "{{item}}"
+      name: "{{ item }}"
       state: latest
     with_items:
     - "yum-utils"
@@ -17,7 +17,7 @@
   - name: Add Docker repo
     get_url:
       url: https://download.docker.com/linux/centos/docker-ce.repo
-      dest: /etc/yum.repos.d/docer-ce.repo
+      dest: /etc/yum.repos.d/docker-ce.repo
      become: yes
 
   - name: Install Docker
